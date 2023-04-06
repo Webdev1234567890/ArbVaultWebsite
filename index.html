@@ -1,0 +1,506 @@
+<!DOCTYPE html><html lang="en"><head>
+
+    <!-- Meta -->
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+
+    <!-- Title -->
+    <title>Arb Vault</title>
+
+    <!-- Favicon icon -->
+    <link rel="icon" type="image/png" href="images/ARBvaultlogo.png">
+
+    <!-- Stylesheet -->
+    <link href="css/bootstrap-select.min.css" rel="stylesheet">
+    <link href="css/owl.carousel.css" rel="stylesheet">
+    <link href="css/lightgallery.min.css" rel="stylesheet">
+    <link href="css/animate.css" rel="stylesheet">
+
+    <!-- Custom Stylesheet -->
+    <link rel="stylesheet" href="css/style.css">
+    <link class="skin" rel="stylesheet" href="css/skin-1.css">
+    <link rel="stylesheet" href="css/all.min.css" crossorigin="anonymous" referrerpolicy="no-referrer">
+
+
+    <link rel="stylesheet" type="text/css" href="css/swiper.min.css">
+
+    <!-- Hotjar Tracking Code for www.Shibarium Vault.com -->
+    <script>
+        (function (h, o, t, j, a, r) {
+            h.hj = h.hj || function () { (h.hj.q = h.hj.q || []).push(arguments) };
+            h._hjSettings = { hjid: 2497949, hjsv: 6 };
+            a = o.getElementsByTagName('head')[0];
+            r = o.createElement('script'); r.async = 1;
+            r.src = t + h._hjSettings.hjid + j + h._hjSettings.hjsv;
+            a.appendChild(r);
+        })(window, document, 'https://static.hotjar.com/c/hotjar-', '.js?sv=');
+    </script><script async src="https://static.hotjar.com/c/hotjar-2497949.js?sv=6"></script>
+
+    <!-- Google tag (gtag.js) -->
+    <script async src="https://www.googletagmanager.com/gtag/js?id=G-V923HWHXHP"></script>
+    <script>
+        window.dataLayer = window.dataLayer || [];
+        function gtag() { dataLayer.push(arguments); }
+        gtag('js', new Date());
+
+        gtag('config', 'G-V923HWHXHP');
+    </script>
+</head>
+
+<body id="bg">
+    <div id="loading-area">
+        <img class="loading" src="images/ARBvaultlogo.png">
+    </div>
+    <div class="page-wraper">
+        <!-- Header -->
+        <header class="site-header header mo-left header-transparent text-black">
+            <!-- Main Header -->
+            <div class="sticky-header main-bar-wraper navbar-expand-lg">
+                <div class="main-bar clearfix ">
+                    <div class="container clearfix">
+                        <!-- Website Logo -->
+                        <div class="logo-header logo-dark">
+                            <a href="index.html"><img src="images/ARBvaultlogo.png" alt></a>
+                        </div>
+                        <!-- Nav Toggle Button -->
+                        <button class="navbar-toggler collapsed navicon justify-content-end" type="button" data-toggle="collapse" data-target="#navbarNavDropdown" aria-controls="navbarNavDropdown" aria-expanded="false" aria-label="Toggle navigation">
+                            <span></span>
+                            <span></span>
+                            <span></span>
+                        </button>
+                        <!-- Extra Nav -->
+                        <div class="extra-nav">
+                            <div class="extra-cell">
+                                <a href="https://app.sushi.com/swap?inputCurrency=ETH&outputCurrency=0xd4d42F0b6DEF4CE0383636770eF773390d85c61A&chainId=42161" target="_blank" class="btn btn-primary gradient rounded-xl">BUY ON SUSHI</a>
+                            </div>
+                        </div>
+                        <div class="header-nav navbar-collapse collapse justify-content-end" id="navbarNavDropdown">
+                            <div class="logo-header">
+                                <a href="index.html"><img src="images/ARBvaultlogo.png" alt></a>
+                            </div>
+                            <ul class="nav navbar-nav navbar">
+                                <li class="active"><a href="index.html"><span>Home</span></a></li>
+                                <li class="active"><a href="#tokenomics"><span>Tokenomics</span></a>
+                                </li>
+                                <li><a href="#aboutus"><span>About Us</span></a></li>
+                                <li><a href="#roadmap"><span>Roadmap</span></a></li>
+                                <li><a href="#howtobuy"><span>How To Buy</span></a></li>
+                            </ul>
+                            <div class="dlab-social-icon">
+                                <ul>
+                                    <li><a class="fab fa-telegram" href="https://t.me/arbvault" target="_blank"></a>
+                                    <li><a class="fab fa-twitter" href="https://twitter.com/arbvaultarbi" target="_blank"></a>
+                                    </li>
+                                </ul>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <!-- Main Header End -->
+        </header>
+        <!-- Header End -->
+
+        <div class="page-content bg-white">
+            <!-- Slider -->
+            <div class="banner-two" style="background-image:url(images/pic2.png); background-repeat:no-repeat; background-position:top; background-size:100%;">
+                <div class="container">
+                    <div class="banner-inner">
+                        <div class="row align-items-center">
+                            <div class="col-lg-7">
+                                <div class="banner-content">
+                                    <h1 class="wow fadeInUp m-b20">Arb Vault</h1>
+                                    <p class="wow fadeInUp m-b15" data-wow-delay="1.5s">Arb Vault revolutionizes
+                                        crypto by combining staking and DeFi. It eliminates third-party custodians and
+                                        creates an open market for lending, borrowing, and trading. True holders will receive $ARB tokens just by holding!
+                                    </p>
+
+                                    <a href="https://t.me/arbvault" target="_blank" class="wow fadeInUp btn btn-primary rounded-xl gradient" data-wow-delay="2.5s"><span>Telegram</span></a>
+                                    <a href="javascript:void(0)" onclick="showComingSoon()" class="wow fadeInUp btn btn-primary rounded-xl gradient" data-wow-delay="2.5s"><span>Staking Vault</span></a>
+                                    <div class="row align-items-center mt-4 mt-md-5">
+                                        <div class="col-8">
+                                            <input class="crypto_address mb-0" type="text" value="COMING SOON" id="CryptoAddress" disabled>
+                                        </div>
+                                        <div class="col-4 mt-md-0">
+                                            <a href="https://arbiscan.com/token/" target="_blank" class="external_link_contract gradient gradient">
+                                                <i class="fas fa-external-link-alt"></i>
+                                            </a>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="col-lg-5">
+                                <div class="banner-media">
+                                    <img src="images/ARBvaultlogo.png" class="wow fadeInUp" data-wow-delay="2s" alt>
+                                    <div class="move-2">
+                                        <img src="images/ARBvaultlogo.png" class="wow zoomIn" data-wow-delay="2.5s" alt>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <!-- Clients Logo -->
+            <!-- <div class="content-inner-3">
+				<div class="container">
+					<div class="clients-carousel owl-none owl-carousel m-b30 style-2">
+						<a class="item" href="https://arbiscan.com/token/"
+							target="_blank">
+							<div class="clients-logo">
+								<img class="logo-main" src="images/arbiscan.svg" alt="">
+								<img class="logo-hover" src="images/arbiscan.svg" alt="">
+							</div>
+						</a>
+						<a class="item"
+							href="#"
+							target="_blank">
+							<div class="clients-logo">
+								<img class="logo-main" src="images/pcsbanner.png" alt="">
+								<img class="logo-hover" src="images/pcsbanner.png" alt="">
+							</div>
+						</a>
+						<a class="item" href="javascript:void(0)" onclick="showComingSoon()">
+							<div class="clients-logo">
+								<img class="logo-main" src="images/cmcbanner.png" alt="">
+								<img class="logo-hover" src="images/cmcbanner.png" alt="">
+							</div>
+						</a>
+						<a class="item" href="javascript:void(0)" onclick="showComingSoon()">
+							<div class="clients-logo">
+								<img class="logo-main" src="images/coingeckobanner.png" alt="">
+								<img class="logo-hover" src="images/coingeckobanner.png" alt="">
+							</div>
+						</a>
+					</div>
+				</div>
+			</div> -->
+        </div>
+
+        <!-- Tokenomics -->
+        <section id="tokenomics" class="content-inner-2" style="background-image: url(images/bg2.png); background-size: cover; background-position: top center; background-repeat: no-repeat;">
+            <div class="container">
+                <div class="section-head style-1 text-center">
+                    <h2 class="title">Tokenomics</h2>
+                </div>
+                <div class="text-center">
+                    <h4><span style="color: #dd3e6e;">6%</span> Buy and Sell Tax</h4>
+                </div>
+                <div class="row">
+                    <div class="col-lg-6 col-md-6 col-sm-12 m-t30">
+                        <div class="icon-bx-wraper style-7 text-center" style="min-height: 350px;">
+                            <div class="icon-media">
+                                <img src="images/rewardsicon.png" width="100" alt>
+                            </div>
+                            <div class="icon-content">
+                                <h4 class="dlab-title"><span style="color: #dd3e6e;">1 Million</span> Total Supply
+                                </h4>
+                                <p>The token distribution and tokenomics are designed to incentivize long-term participation and growth of the platform.</p>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-lg-6 col-md-6 col-sm-12 m-t30">
+                        <div class="icon-bx-wraper style-7 text-center" style="min-height: 350px;">
+                            <div class="icon-media">
+                                <img src="images/liquidityicon.png" width="100" alt>
+                            </div>
+                            <div class="icon-content">
+                                <h4 class="dlab-title"><span style="color: #dd3e6e;">6%</span> Marketing & Rewards
+                                </h4>
+                                <p>Giving us the immediate resources we need to promote and actively drive new investors
+                                    to purchase. 4% will be used for marketing and the other 2% will go to holders in the $ARB token.</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- About us -->
+        <section id="aboutus" style="padding-top: 60px;" class="content-inner about-wraper-1">
+            <div class="container">
+                <div class="row align-items-center">
+                    <div class="col-lg-6 m-b30 wow fadeInLeft" data-wow-duration="2s" data-wow-delay="0.2s">
+                        <div class="dz-media left">
+                            <img src="images/ARBvaultlogo.png" alt>
+                        </div>
+                    </div>
+                    <div class="col-lg-6 m-b30 wow fadeInRight" data-wow-duration="2s" data-wow-delay="0.4s">
+                        <div class="section-head style-1">
+                            <h6 class="sub-title text-primary m-b15">About Us</h6>
+                            <h2 class="title m-b20">What is Arb Vault?</h2>
+                            <p style="font-size: 17px;">Arb Vault is an exciting new project that is
+                                revolutionizing the cryptocurrency space. It combines the benefits of staking and DeFi
+                                to create an entirely unique experience for users. The concept behind Arb Vault is
+                                to provide users with a secure and efficient way to stake their crypto holdings, as well
+                                as a platform for issuing stablecoins pegged to various fiat currencies. With its
+                                innovative approach to staking, Arb Vault eliminates the need for third-party
+                                custodians and presents an open market for lenders, borrowers, and traders alike.</p>
+                        </div>
+                        <ul class="list-check primary m-b30">
+                            <li style="font-size: 17px;">Secure and reliable staking service</li>
+                            <li style="font-size: 17px;">Easy-to-use interface</li>
+                            <li style="font-size: 17px;">Real $ARB rewards for holders</li>
+                        </ul>
+                        <a href="https://app.sushi.com/swap?inputCurrency=ETH&outputCurrency=0xd4d42F0b6DEF4CE0383636770eF773390d85c61A&chainId=42161" target="_blank" class="btn btn-primary rounded-xl gradient">BUY ON Sushi</a>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- Services -->
+        <section id="features" class="content-inner-2" style="background-image: url(images/bg2.png); background-size: contain; background-position: center; background-repeat: no-repeat;">
+            <div class="container">
+                <div class="row align-items-center">
+                    <div class="col-lg-6 wow fadeInLeft" data-wow-duration="2s" data-wow-delay="0.2s">
+                        <div class="section-head style-1">
+                            <h2 class="title">Some of our features</h2>
+                        </div>
+                        <div class="icon-bx-wraper style-3 left box-hover m-r50 m-b30 wow fadeInRight" data-wow-duration="2s" data-wow-delay="0.4s">
+                            <div class="icon-bx-sm radius">
+                                <a href="javascript:void(0);" class="icon-cell">
+                                    <i class="fas fa-hand-holding-heart"></i>
+                                </a>
+                            </div>
+                            <div class="icon-content">
+                                <h4 class="dlab-title m-b10">Secure and reliable staking service</h4>
+                                <p>Arb Vault provides a secure, trustless environment for staking digital tokens,
+                                    using advanced technology such as multi-sig wallets and smart contracts.</p>
+                            </div>
+                        </div>
+                        <div class="icon-bx-wraper style-3 left box-hover active m-l50 m-b30 wow fadeInRight" data-wow-duration="2s" data-wow-delay="0.6s">
+                            <div class="icon-bx-sm radius">
+                                <a href="javascript:void(0);" class="icon-cell">
+                                    <i class="fas fa-chart-line"></i>
+                                </a>
+                            </div>
+                            <div class="icon-content">
+                                <h4 class="dlab-title m-b10">2% $ARB rewardss</h4>
+                                <p>Arb Vault offers a 2% $ARB rewards for true holders! Holders earn 2% in $ARB tokens just by holding the Arb Vault token!</p>
+                            </div>
+                        </div>
+                        <div class="icon-bx-wraper style-3 left box-hover m-r50 m-b30 wow fadeInRight" data-wow-duration="2s" data-wow-delay="0.8s">
+                            <div class="icon-bx-sm radius">
+                                <a href="javascript:void(0);" class="icon-cell">
+                                    <i class="fa fa-lock"></i>
+                                </a>
+                            </div>
+                            <div class="icon-content">
+                                <h4 class="dlab-title m-b10">State-of-the-art security protocols</h4>
+                                <p>Arb Vault uses cutting-edge security protocols to provide a very secure way for
+                                    users to store, manage and stake their digital tokens.</p>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-lg-6">
+                        <div class="cf-r-img d-lg-block d-none">
+                            <img src="images/ARBvaultlogo.png" class="move-2" alt>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- How to buy -->
+        <section id="howtobuy" class="content-inner-2">
+            <div class="container">
+                <div class="section-head style-1 text-center">
+                    <h2 class="title">How to buy?</h2>
+                </div>
+                <div class="row">
+                    <div class="col-lg-4 col-md-6 col-sm-12">
+                        <div class="icon-bx-wraper style-7 text-center m-lg-b30" style="min-height: 350px;">
+                            <div class="icon-media">
+                                <img src="images/metamask.png" width="100" alt>
+                            </div>
+                            <div class="icon-content">
+                                <h4 class="dlab-title">STEP 1</h4>
+                                <p>✔️ Download the MetaMask Chrome Extension or mobile app.</p>
+                                <p>✔️ Setup your account & add the <a href="#" target="_blank">Arbitrum Chain</a> to
+                                    your network list.</p>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-lg-4 col-md-6 col-sm-12">
+                        <div class="icon-bx-wraper style-7 text-center m-lg-b30" style="min-height: 350px;">
+                            <div class="icon-media">
+                                <img src="images/binance.png" width="100" alt>
+                            </div>
+                            <div class="icon-content">
+                                <h4 class="dlab-title">STEP 2</h4>
+                                <p>✔️ Use Binance or another exchange to purchase Eth and send it over to your
+                                    MetaMask
+                                    Wallet Address.</p>
+                                <p>✔️ Or if you already have Eth, simply send it to your MetaMask Wallet.</p>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-lg-4 col-md-6 col-sm-12 offset-lg-0 offset-md-3">
+                        <div class="icon-bx-wraper style-7 text-center " style="min-height: 350px;">
+                            <div class="icon-media">
+                                <img src="images/pancakeswap.png" width="100" alt>
+                            </div>
+                            <div class="icon-content">
+                                <h4 class="dlab-title">STEP 3</h4>
+                                <p>✔️ Head on over to SushiSwap and use the Contract Address to find the Token. Set
+                                    the slippage tolerance to 6% (but could be higher depending on how much demand
+                                    there is).</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- Footer -->
+        <footer class="site-footer style-2" id="footer" style="background-image: url(images/bg4.png); margin-top: 100px;">
+            <div class="footer-top">
+                <div class="container">
+                    <div class="row">
+                        <div class="col-xl-4 col-lg-4 col-sm-6 wow fadeIn" data-wow-duration="2s" data-wow-delay="0.2s">
+                            <div class="widget widget_about">
+                                <div class="footer-logo">
+                                    <a href="index.html"><img style="height:144px;" src="images/ARBvaultlogo.png" alt></a>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-xl-4 col-lg-2 col-sm-6 wow fadeIn" data-wow-duration="2s" data-wow-delay="0.4s">
+                            <div class="widget widget_services">
+                                <h5 class="footer-title">Our links</h5>
+                                <ul>
+                                    <li><a href="#tokenomics">Tokenomics</a></li>
+                                    <li><a href="#aboutus">About Us</a></li>
+                                </ul>
+                            </div>
+                        </div>
+                        <div class="col-xl-4 col-lg-3 col-sm-6 wow fadeIn" data-wow-duration="2s" data-wow-delay="0.6s">
+                            <div class="widget widget_services">
+                                <h5 class="footer-title">Our Socials</h5>
+                                <ul>
+                                    <li><a href="https://t.me/arbvault" target="_blank">Telegram</a>
+                                    <li><a href="https://twitter.com/arbvaultarbi" target="_blank">Twitter</a>
+                                    </li>
+                                </ul>
+                            </div>
+                        </div>
+                        <!-- <div class="col-xl-3 col-lg-3 col-sm-6 wow fadeIn" data-wow-duration="2s" data-wow-delay="0.8s">
+							<div class="widget widget_services">
+								<h5 class="footer-title">Disclaimer</h5>
+								<ul>
+									<p style="font-size: 12px;">This website is distributed for general informational
+										and educational purposes only and is not intended to constitute legal, tax,
+										accounting, or investment advice.</p>
+								</ul>
+							</div>
+						</div> -->
+                    </div>
+                </div>
+            </div>
+            <!-- footer bottom part -->
+            <div class="footer-bottom">
+                <div class="container">
+                    <div class="row align-items-center">
+                        <div class="col-lg-12 col-md-12 text-center">
+                            <span class="copyright-text">Copyright © 2023 Arb Vault. All rights reserved.</span>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </footer>
+        <!-- Footer End -->
+        <button class="scroltop icon-up" type="button"><i class="fa fa-arrow-up"></i></button>
+
+        <!-- The Modal -->
+        <div id="modalComingSoon" class="modal">
+
+            <!-- Modal content -->
+            <div class="modal-content">
+                <div class="modal-header gradient">
+                    <span class="close">
+                        <i class="fa fa-times" aria-hidden="true"></i>
+                    </span>
+                </div>
+                <div class="modal-body">
+                    <h4>NOTIFICATION</h4>
+                    <p>Coming soon...</p>
+                </div>
+                <div class="modal-footer">
+                    <a href="javascript:void(0)" onclick="hideComingSoon()" class="wow fadeInUp btn btn-primary rounded-xl gradient" data-wow-delay="2.5s">OK</a>
+                </div>
+            </div>
+
+        </div>
+    </div>
+    <!-- JAVASCRIPT FILES ========================================= -->
+    <script src="js/jquery.min.js" crossorigin="anonymous" referrerpolicy="no-referrer"></script>
+    <script src="js/wow.min.js" crossorigin="anonymous" referrerpolicy="no-referrer"></script>
+    <script src="js/popper.min.js" crossorigin="anonymous" referrerpolicy="no-referrer"></script>
+    <script src="js/bootstrap.min.js" crossorigin="anonymous"></script>
+    <script src="js/owl.carousel.min.js" crossorigin="anonymous" referrerpolicy="no-referrer"></script>
+    <script src="js/jquery.magnific-popup.min.js" crossorigin="anonymous" referrerpolicy="no-referrer"></script>
+    <script src="js/waypoints-min.js"></script><!-- WAYPOINTS JS -->
+    <script src="js/counterup.min.js"></script><!-- COUNTERUP JS -->
+    <script src="js/bootstrap-select.min.js" crossorigin="anonymous" referrerpolicy="no-referrer"></script>
+    <script src="js/imagesloaded.pkgd.min.js" crossorigin="anonymous" referrerpolicy="no-referrer"></script>
+    <script src="js/isotope.pkgd.min.js" crossorigin="anonymous" referrerpolicy="no-referrer"></script>
+    <script src="js/dz.carousel.js"></script><!-- OWL-CAROUSEL -->
+    <script src="js/custom.js"></script><!-- CUSTOM JS -->
+    <script src="js/vue.min.js"></script>
+    <script src="https://unpkg.com/vue-chartjs@2.6.5"></script>
+    <script src="js/Chart.PieceLabel.js"></script>
+    <script src="js/chart.js"></script>
+
+
+    <script src="js/swiper.min.js"></script><!-- swiper -->
+    <script>
+        var testimonialThumbs = new Swiper('.testimonial-thumbs', {
+            spaceBetween: 10,
+            slidesPerView: 3,
+            centeredSlides: true,
+            freeMode: true,
+            autoplay: true,
+            loop: true,
+            speed: 3000,
+        });
+        var testimonialContent = new Swiper('.testimonial-content', {
+            spaceBetween: 10,
+            autoplay: true,
+            loop: true,
+            speed: 3000,
+            thumbs: {
+                swiper: testimonialThumbs
+            },
+            pagination: {
+                el: '.swiper-pagination',
+                clickable: true,
+            },
+        });
+    </script>
+    <script>
+        var modal = document.getElementById("modalComingSoon");
+
+        var closeModal = document.getElementsByClassName("close")[0];
+
+        closeModal.onclick = function () {
+            modal.style.display = "none";
+        }
+
+        window.onclick = function (event) {
+            if (event.target == modal) {
+                modal.style.display = "none";
+            }
+        }
+
+        function showComingSoon() {
+            modal.style.display = "block";
+        }
+
+        function hideComingSoon() {
+            modal.style.display = "none";
+        }
+    </script>
+
+
+</body></html>
